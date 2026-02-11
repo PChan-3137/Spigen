@@ -155,8 +155,7 @@
     width: 100%;
   }
   .cart-section .cart-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
     gap: 30px;
   }
   .cart-section .cart-wrapper .cart-summary {
@@ -165,6 +164,7 @@
     z-index: 5;
   }
   .cart-section .cart-wrapper .cart-summary .summary-box {
+    width: 100%;
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -253,8 +253,8 @@
   }
   .mypage-wrapper .mypage-sidebar .mypage-menu .menu-item:hover, .mypage-wrapper .mypage-sidebar .mypage-menu .menu-item.active {
     border-left: none;
-    border-bottom-color: #1F4E79;
-    background: rgba(31, 78, 121, 0.05);
+    border-bottom-color: #111;
+    background: rgba(17, 17, 17, 0.05);
   }
   .mypage-wrapper .mypage-content {
     order: 2;
@@ -318,17 +318,17 @@
     white-space: nowrap;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label:hover {
-    color: #1F4E79;
+    color: #111;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label input[type=radio] {
     width: 18px;
     height: 18px;
     cursor: pointer;
-    accent-color: #1F4E79;
+    accent-color: #111;
     flex-shrink: 0;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label input[type=radio]:checked + span, .page-content .mobile-filter-radio .filter-group .radio-group label input[type=radio]:checked {
-    color: #1F4E79;
+    color: #111;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label span {
     margin-left: 0;
@@ -467,17 +467,17 @@
     white-space: nowrap;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label:hover {
-    color: #1F4E79;
+    color: #111;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label input[type=radio] {
     width: 16px;
     height: 16px;
     cursor: pointer;
-    accent-color: #1F4E79;
+    accent-color: #111;
     flex-shrink: 0;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label input[type=radio]:checked + span, .page-content .mobile-filter-radio .filter-group .radio-group label input[type=radio]:checked {
-    color: #1F4E79;
+    color: #111;
   }
   .page-content .mobile-filter-radio .filter-group .radio-group label span {
     margin-left: 0;
@@ -517,8 +517,7 @@
     padding: 20px;
   }
   .cart-section .cart-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
     gap: 20px;
   }
   .cart-section .cart-summary {
@@ -527,6 +526,7 @@
     z-index: 5;
   }
   .cart-section .cart-summary .summary-box {
+    width: 100%;
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -616,8 +616,8 @@
   }
   .mypage-wrapper .mypage-sidebar .mypage-menu .menu-item:hover, .mypage-wrapper .mypage-sidebar .mypage-menu .menu-item.active {
     border-left: none;
-    border-bottom-color: #1F4E79;
-    background: rgba(31, 78, 121, 0.05);
+    border-bottom-color: #111;
+    background: rgba(17, 17, 17, 0.05);
   }
   .mypage-wrapper .mypage-content .order-summary {
     grid-template-columns: 1fr 1fr;
@@ -697,7 +697,7 @@
     position: relative;
   }
   header .navbar .nav-toggle.active span {
-    background-color: #1F4E79;
+    background-color: #111;
   }
   header .navbar .nav-menu {
     display: flex !important;
@@ -749,14 +749,14 @@
     top: 0;
     bottom: 0;
     width: 4px;
-    background: linear-gradient(180deg, #1F4E79, #2E6BA8);
+    background: linear-gradient(180deg, #111, #555);
     transform: scaleY(0);
     transition: 0.3s ease;
   }
   header .navbar .nav-menu li a:hover,
   header .navbar .nav-menu li a.active {
-    color: #1F4E79;
-    background: rgba(31, 78, 121, 0.05);
+    color: #111;
+    background: rgba(17, 17, 17, 0.05);
     padding-left: 35px;
   }
   header .navbar .nav-menu li a:hover::before,

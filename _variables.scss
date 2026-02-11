@@ -37,12 +37,12 @@ $lh-tight: 1.4; // 제목용 촘촘한 행간
    ============================================ */
 
 /* Brand Colors */
-$c-brand-main: #1F4E79;          // 주요 버튼/포인트 배경
-$c-brand-sub: #2E6BA8;           // 보조 포인트/보조 강조
+$c-brand-main: #111;          // 주요 버튼/포인트 배경
+$c-brand-sub: #555;           // 보조 포인트/보조 강조
 
 /* Gradients */
-$g-brand-primary: linear-gradient(135deg, #1F4E79 0%, #2E6BA8 100%); // 브랜드 기본
-$g-brand-warm: linear-gradient(135deg, #1F4E79 0%, #F59E0B 100%); // 브랜드+웜 포인트
+$g-brand-primary: linear-gradient(135deg, #111 0%, #fff 100%); // 브랜드 기본
+$g-brand-warm: linear-gradient(135deg, #111 0%, #F59E0B 100%); // 브랜드+웜 포인트
 $g-accent-pink: linear-gradient(135deg, #FF6B9A 0%, #FFD1DC 100%); // 포인트 배지/리본
 $g-accent-green: linear-gradient(135deg, #0a7536 0%, #6EE7B7 100%); // 성공/긍정 강조
 $g-overlay-dark: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%); // 이미지 오버레이

@@ -238,7 +238,7 @@ header {
     position: absolute;
     inset: 0;
     background-image: linear-gradient(135deg, rgba($c-brand-main, 0.45), rgba($c-brand-sub, 0.35)),
-      url('https://cdn.imweb.me/thumbnail/20250716/2c641c56f2480.jpg');
+      url('/source/feature.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3832,10 +3832,12 @@ body.search-open .search-panel {
 
 .hscroll .hcard img {
   width: 100%;
-  height: 160px;
-  object-fit: contain;
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
   background: #fff;
 }
+
 
 .hscroll .hcard .hbody {
   padding: 12px 12px 14px;
@@ -3870,8 +3872,8 @@ body.search-open .search-panel {
 .matrix-main {
   border-radius: 18px;
   overflow: hidden;
-  background: linear-gradient(135deg, rgb(11 72 141 / 0%), rgb(25 0 211 / 53%)),
-    url("https://cdn.imweb.me/thumbnail/20250623/18eae0db13417.jpg");
+  background: linear-gradient(135deg, rgb(1 1 1 / 0%), rgb(125 125 125/ 100%)),
+    url("/source/matrix-main.jpg");
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3896,7 +3898,7 @@ body.search-open .search-panel {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(0,0,0,0.1), rgba($c-brand-main,0.2));
+  // background: linear-gradient(135deg, rgba(0,0,0,0.1), rgba($c-brand-main,0.2));
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -3957,8 +3959,9 @@ body.search-open .search-panel {
 
 .matrix-card img {
   width: 100%;
-  height: 180px;
-  object-fit: contain;
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
   background: #fff;
 }
 
