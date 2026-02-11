@@ -238,7 +238,7 @@ header {
     position: absolute;
     inset: 0;
     background-image: linear-gradient(135deg, rgba($c-brand-main, 0.45), rgba($c-brand-sub, 0.35)),
-      url('/source/feature.png');
+      url('../source/feature.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3873,7 +3873,7 @@ body.search-open .search-panel {
   border-radius: 18px;
   overflow: hidden;
   background: linear-gradient(135deg, rgb(1 1 1 / 0%), rgb(125 125 125/ 100%)),
-    url("/source/matrix-main.jpg");
+    url("../source/matrix-main.jpg");
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
